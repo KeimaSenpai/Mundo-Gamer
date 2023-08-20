@@ -1,0 +1,15 @@
+accounts:
+  3c5210d1-2dbd-3639-a498-6e1b206ff90e:
+    nickname: KeimaSenpai
+    uuid: 3c5210d1-2dbd-3639-a498-6e1b206ff90e
+    payable: true
+currencies:
+  a3b8e584-1e97-49d1-baec-c7efd503dfe1:
+    singular: MG
+    plural: MG
+    defaultbalance: 0.0
+    decimalsupported: true
+    defaultcurrency: true
+    payable: true
+    color: WHITE
+    exchange_rate: 1.0

@@ -1,0 +1,18 @@
+menu_title: '              &b» &6&lPisos &b«'
+open_command:
+  - warp
+size: 53
+items:
+  '1':
+    display_name: "&b&lAincrad"
+    material: paper
+    slots:
+      - 20
+    lore:
+      - "      &m      "
+      - "&6Ciudad principal"
+      - "&b»&7Clic para ir"
+    left_click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[player] warp aincrad'
+      - '[close]'

@@ -1,0 +1,37 @@
+menu_title: '              &b» &6&lCosmeticos &b«'
+open_command:
+  - cabeza
+size: 53
+items:
+  '1':
+    display_name: "&b&lTornillo"
+    material: globe_banner_pattern
+    slots:
+      - 20
+    lore:
+      - "&b»&7Clic para ir equipar"
+    left_click_commands:
+      - '[console] replaceitem entity %player_name% armor.head minecraft:black_dye{CustomModelData:1}'
+      - '[sound] UI_BUTTON_CLICK'
+      - '[close]'
+  '2':
+    display_name: "&b&lSombrero"
+    material: globe_banner_pattern
+    slots:
+      - 21
+    lore:
+      - "&b»&7Clic para ir equipar"
+    left_click_commands:
+      - '[console] replaceitem entity %player_name% armor.head minecraft:black_dye{CustomModelData:2}'
+      - '[sound] UI_BUTTON_CLICK'
+      - '[close]'
+  '3':
+    display_name: "&b&lRetornar"
+    material: paper
+    slots:
+      - 53
+    lore:
+      - "&b»&7Clic para ir al menú"
+    left_click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[openguimenu] perfil'

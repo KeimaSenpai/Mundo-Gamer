@@ -1,0 +1,61 @@
+menu_title: '              &b» &6&lPerfil &b«'
+open_command:
+  - perfil
+size: 53
+items:
+  '1':
+    display_name: "&b&l%player_name%"
+    material: 'head-%player_name%'
+    slots:
+      - 13
+    lore:
+      - "      &6&m      "
+      - "◆&bDinero: &f$%vault_eco_balance_formatted%"
+      - "◆&bNivel: &f%alonsolevels_level%"
+      - "◆%alonsolevels_progress_bar%"
+      - "◆&bGremio: &f%changeoutput_equals_input:_matcher:{betterTeams_name}_ifmatch:&7Sin Clan_else:{betterTeams_name}%"
+  '2':
+    display_name: "&b&lProximamente"
+    material: paper
+    slots:
+      - 11
+    lore:
+      - "      &6&m     "
+      - "&6Listado de Cosméticos"
+      - "&b»&7Clic para ir"
+    left_click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[openguimenu] cabeza'
+  '3':
+    display_name: "&b&lProximamente"
+    material: barrier
+    slots:
+      - 20
+    lore:
+      - "      &6&m     "
+      - "&b»&7Clic para ir"
+    left_click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[openguimenu] cabeza'
+  '4':
+    display_name: "&b&lProximamente"
+    material: barrier
+    slots:
+      - 38
+    lore:
+      - "      &6&m     "
+      - "&b»&7Clic para ir"
+    left_click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[openguimenu] cabeza'
+  '5':
+    display_name: "&b&lProximamente"
+    material: barrier
+    slots:
+      - 49
+    lore:
+      - "      &6&m     "
+      - "&b»&7Clic para ir"
+    left_click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[openguimenu] cabeza'

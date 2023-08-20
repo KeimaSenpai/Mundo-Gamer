@@ -1,0 +1,20 @@
+# DeluxeMenus 1.13.7-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: true
+gui_menus:
+  perfil:
+    file: perfil.yml
+  roles:
+    file: roles.yml
+  warp:
+    file: warp.yml
+  cabeza:
+    file: cabeza.yml
+  exaple:
+    file: example.yml
+  tienda:
+    file: tienda.yml

@@ -1,0 +1,183 @@
+menu_title: '              &b» &6&lRoles &b«'
+open_command:
+  - roles
+open_commands:
+  - '[sound] UI_BUTTON_CLICK'
+size: 18
+items:
+  'guerrero':
+    display_name: "&7&lGuerrero"
+    material: paper
+    slots:
+      - 2
+    lore:
+      - ""
+      - "&6Cualidades"
+      - "&a▪ &7Puede hacer todo lo vanilla"
+      - ""
+      - "&b>&7Clic para ir selecionar"
+    left_click_commands:
+      - '[console] lp user %player_name% parent set guerrero'
+      - '[console] skin set %player_name%'
+      - '[message] &7[&a✔&7] &7Selecionado rol con éxito'
+
+  'asesino':
+    material: paper
+    slot: 3
+    display_name: '&7&lAsesino'
+    lore:
+      - ""
+      - "&6Cualidades"
+      - "&a▪ &7Cosmeticos exclusivos"
+      - "&a▪ &7Misiones exclusivas"
+      - "&a▪ &7Y más proximamente"
+      - ""
+      - "&b>&7Clic para ir selecionar"
+    view_requirement:
+      requirements:
+        asesino:
+          type: has permission
+          permission: deluxemenus.asesino
+    priority: 1
+    left_click_commands:
+      - '[console] lp user %player_name% parent set asesino'
+      - '[message] &7[&a✔&7] &7Selecionado rol con éxito'
+  'asesino1':
+    material: paper
+    slot: 3
+    display_name: '&7&lAsesino'
+    priority: 2
+    lore:
+      - ""
+      - "&6Cualidades"
+      - "&a▪ &7Cosmeticos exclusivos"
+      - "&a▪ &7Misiones exclusivas"
+      - "&a▪ &7Y más proximamente"
+      - ""
+      - "&4⚠ &4No tiene permisos"
+      - "&a▪ &7Compra el rol en sco.store.com"
+      - ""
+      - "&b>&7Clic para ir al menú"
+    left_click_commands:
+      - '[close]'
+  'cocinero':
+    material: paper
+    slot: 4
+    display_name: '&7&lCocinero'
+    lore:
+      - ""
+      - "&6Cualidades"
+      - "&a▪ &7Crea comidas customs"
+      - "&a▪ &7Cosmeticos exclusivos"
+      - "&a▪ &7Misiones exclusivas"
+      - "&a▪ &7Y más proximamente"
+      - ""
+      - "&b>&7Clic para ir selecionar"
+    view_requirement:
+      requirements:
+        cocinero:
+          type: has permission
+          permission: deluxemenus.cocinero
+    priority: 1
+    left_click_commands:
+      - '[console] lp user %player_name% parent set cocinero'
+      - '[message] &7[&a✔&7] &7Selecionado rol con éxito'
+  'cocinero1':
+    material: paper
+    slot: 4
+    display_name: '&7&lCocinero'
+    priority: 2
+    lore:
+      - ""
+      - "&6Cualidades"
+      - "&a▪ &7Crea comidas customs"
+      - "&a▪ &7Cosmeticos exclusivos"
+      - "&a▪ &7Misiones exclusivas"
+      - "&a▪ &7Y más proximamente"
+      - ""
+      - "&4⚠ &4No tiene permisos"
+      - "&a▪ &7Compra el rol en sco.store.com"
+      - ""
+      - "&b>&7Clic para ir al menú"
+    left_click_commands:
+      - '[close]'
+  'cazador':
+    material: paper
+    slot: 5
+    display_name: '&7&lCazador'
+    lore:
+      - ""
+      - "&6Cualidades"
+      - "&a▪ &7Cosmeticos exclusivos"
+      - "&a▪ &7Misiones exclusivas"
+      - "&a▪ &7Y más proximamente"
+      - ""
+      - "&b>&7Clic para ir selecionar"
+    view_requirement:
+      requirements:
+        cocinero:
+          type: has permission
+          permission: deluxemenus.cazador
+    priority: 1
+    left_click_commands:
+      - '[console] lp user %player_name% parent set cocinero'
+      - '[message] &7[&a✔&7] &7Selecionado rol con éxito'
+  'cazador1':
+    material: paper
+    slot: 5
+    display_name: '&7&lCazador'
+    priority: 2
+    lore:
+      - ""
+      - "&6Cualidades"
+      - "&a▪ &7Cosmeticos exclusivos"
+      - "&a▪ &7Misiones exclusivas"
+      - "&a▪ &7Y más proximamente"
+      - ""
+      - "&4⚠ &4No tiene permisos"
+      - "&a▪ &7Compra el rol en sco.store.com"
+      - ""
+      - "&b>&7Clic para ir al menú"
+    left_click_commands:
+      - '[close]'
+  'herrero':
+    material: paper
+    slot: 6
+    display_name: '&7&lHerrero'
+    lore:
+      - ""
+      - "&6Cualidades"
+      - "&a▪ &7Cosmeticos exclusivos"
+      - "&a▪ &7Crafteos exclusivos"
+      - "&a▪ &7Misiones exclusivas"
+      - "&a▪ &7Y más proximamente"
+      - ""
+      - "&b>&7Clic para ir selecionar"
+    view_requirement:
+      requirements:
+        herrero:
+          type: has permission
+          permission: deluxemenus.herrero
+    priority: 1
+    left_click_commands:
+      - '[console] lp user %player_name% parent set cocinero'
+      - '[message] &7[&a✔&7] &7Selecionado rol con éxito'
+  'herrero1':
+    material: paper
+    slot: 6
+    display_name: '&7&lHerrero'
+    priority: 2
+    lore:
+      - ""
+      - "&6Cualidades"
+      - "&a▪ &7Cosmeticos exclusivos"
+      - "&a▪ &7Crafteos exclusivos"
+      - "&a▪ &7Misiones exclusivas"
+      - "&a▪ &7Y más proximamente"
+      - ""
+      - "&4⚠ &4No tiene permisos"
+      - "&a▪ &7Compra el rol en sco.store.com"
+      - ""
+      - "&b>&7Clic para ir al menú"
+    left_click_commands:
+      - '[close]'

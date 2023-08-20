@@ -1,0 +1,362 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 154
+npc:
+  '154':
+    metadata:
+      cached-skin-uuid: 44f130a8-87fe-4ca5-ab86-cbbb780fa4db
+      cached-skin-uuid-name: melisa
+    name: '&b&m---------'
+    uuid: 08acab77-051d-4c32-9b20-97f5f7a19507
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: i3Tdr2lYxHxWh2BUOyWjjkUkpp9j8PRMoNFmhHzWfNkmx5wUzmRqFtG/HXXLu4t9GEi12ViAlyKd6jeXPQdZt4LDIpsaQ9n6aj/dlw8p9iHcE6KSTFAUfM2KoRNMioBPWtp4Sx/bTKWdI7jnOL2+1ACzYKUhI7AqeWnH/CryrDM7+DkaWYo1PP45JPXCag9Y2u8dHjtnkZvZbQtq1xzSQvNT2YON5SguhtOpVpgZqAxI4FeBKFC2zHT7W+MePhKKYkZwiWdCSE9zhnINpcRLV2T0reIei4ep+azJ1Vmn7YkGBKGc8MfSpMm3efiqV5VYxeRmmBkHAwPCoMVstgtGvhEw8v4D+fwO0G1vDiWChfLaTkdqkOTWdLUqQPyGXhgegpffqF/ir68nJzCORM8mNFUum2FdlFh+FKyi4vyX11fan5Nb/a2IrB69jkYUhkWpb2vxGxfwA21Gzuz7nos1kCkfS6XsRnLZVt9sMs5rhajE7AQgFgPyUdzIVzbYgDV9nRL0925WAv0KFxsR57dwDjYvcP3KEJ+Cx51DgOXfOxMySug1M5d8SbsEesQCwICT7Pmm4lN/+K7GqfR/C88/0xY94kBGCgv5ZQ5owyb/0B/H/dY6VifBGaHpQuCtfj7BZa5wp+Oagll4dzpzJhp6mmKIjaJLVALjMHB+A0GncSE=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5MjMxNzE3MDEwMSwKICAicHJvZmlsZUlkIiA6ICI0NGYxMzBhODg3ZmU0Y2E1YWI4NmNiYmI3ODBmYTRkYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWxpc2EiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNiMjI1ZmI5MmQwZTdmZTkzNTA0ODAxMzA5YTM0ZmVhNzhjM2IxNTc2M2Y2OGJhZmUyMjJkZDU3OWY4MmU3ZSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&bPlayers; &f%server_online_bedwars% / 20'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+          '1':
+            text: '&a&lBedwars'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      type: PLAYER
+      spawned: true
+      owner:
+        uuid: 3c5210d1-2dbd-3639-a498-6e1b206ff90e
+      location:
+        bodyYaw: 138.29842
+        world: lobby
+        x: '-147.6506'
+        y: '170.0'
+        z: '-124.661'
+        yaw: '138.2984'
+        pitch: '-3.7504'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: mvtp %player_name% bedwars_lobby
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skinlayers:
+        cape: true
+        hat: true
+        jacket: true
+        left-pants: true
+        left-sleeve: true
+        right-pants: true
+        right-sleeve: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: commandtrait,type,mounttrait,location,skinlayers,scoreboardtrait,hologramtrait,lookclose,spawned,skintrait,owner,inventory,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '153':
+    name: '&b&m---------'
+    uuid: 840c6bd6-5b3d-426e-afa4-46637c043b07
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&bPlayers; &f%server_online_murder% / 20'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+          '1':
+            text: '&a&lMurder Mystery'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      type: PLAYER
+      spawned: true
+      owner:
+        uuid: 3c5210d1-2dbd-3639-a498-6e1b206ff90e
+      location:
+        bodyYaw: 90.2987
+        world: lobby
+        x: '-146.4404'
+        y: '170.0'
+        z: '-128.4967'
+        yaw: '90.2987'
+        pitch: '-1.8003'
+      skinlayers:
+        cape: true
+        hat: true
+        jacket: true
+        left-pants: true
+        left-sleeve: true
+        right-pants: true
+        right-sleeve: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: spawned,skintrait,type,mounttrait,location,skinlayers,owner,inventory,scoreboardtrait,hologramtrait,lookclose,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '152':
+    metadata:
+      respawn-delay: 149
+    name: '&b&m---------'
+    uuid: 92e111fc-caf3-473b-9afe-60d55e6b0e2f
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&bPlayers; &f%server_online_pvp% / 20'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+          '1':
+            text: '&c&lPVP'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      type: PLAYER
+      spawned: true
+      owner:
+        uuid: 3c5210d1-2dbd-3639-a498-6e1b206ff90e
+      location:
+        bodyYaw: -90.00131
+        world: lobby
+        x: '-156.3211'
+        y: '170.0'
+        z: '-128.5047'
+        yaw: '-90.0013'
+        pitch: '2.3998'
+      skinlayers:
+        cape: true
+        hat: true
+        jacket: true
+        left-pants: true
+        left-sleeve: true
+        right-pants: true
+        right-sleeve: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: spawned,skintrait,type,mounttrait,location,skinlayers,owner,inventory,scoreboardtrait,hologramtrait,lookclose,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '151':
+    metadata:
+      cached-skin-uuid: 632331c5-8bbb-4eb1-9bea-7bf443e24173
+      cached-skin-uuid-name: lucas
+    name: '&b&m---------'
+    uuid: af1fdd36-a2e0-4f2c-9a70-8b8f38aefbe3
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: iHrDrnxBVYlV/lcgRbfCSSHCo0S2B2/Je2XUm5mAbKizGCDgjLMhks4p9TepthVoHqs7KSjN0Em5xsN2+qJzV6aqP9j0pKrlt5oYk+4CGQkgscKV4mHqMsUkQrLg+iwOSHkBp17eEfifPR1dTw0cZ1h7tRqr6qAApgQUnExXsz2jdBo+YbXwuCzyZacqo5v3r+h62TNP462Nh9ZDSmzsCMBuT+q9+kdKekgFLhxz3gLZBS2IBjLb6qlyr78/GR2X8xe9XDz24jQbl2XSDRc0rYZhkzCCuRRwOODzkrYMjtFr3tm5mRPN0Mv1d97oFUconXPrhHV/ZSd/0/qnBAqZIUENtFSWStNq9tOhHUu1xRKJYZlRCa7cg5wmGiHwseqe5+Twgd9KljxqXEerYsOiibK7ZzfkqM3xrcR8NnMTZnMc+GNhFi7cEWxpw7ai3NcTac4vGeN9ln7pkdHCnapAVylF4oARLIzDL/zXPfMb3zDFfUhAr98XSHo7yqTfVtySEUHxcKUhsHqwU2o2o7tXiFhJPCjFCozg+ccVJz/M2C3yhVfJ+J3lKt4g/KSpvuBunZGvpiftScPiXxDp15Gal0BDj+lM6JCK5bati1n4rNEZtmBFsn4TCQTIl9xArqvJYCrwTZziKCLEWAEolx/8VQzT1F0+e2FsR0ytUr4hg3U=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5MjMxNzAwMTUwNywKICAicHJvZmlsZUlkIiA6ICI2MzIzMzFjNThiYmI0ZWIxOWJlYTdiZjQ0M2UyNDE3MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdWNhcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNzM1NTc0ODhjM2JjMWZjZGU2OThjZjI4Nzc0YjVlYzA0YWU4NjkxOGQ2MzljYjc0YjkzOTQzYTA2ZWFjODliIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&bPlayers; &f%server_online_skywars% / 20'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+          '1':
+            text: '&b&lSkywars'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      type: PLAYER
+      spawned: true
+      owner:
+        uuid: 3c5210d1-2dbd-3639-a498-6e1b206ff90e
+      location:
+        bodyYaw: -134.85162
+        world: lobby
+        x: '-155.4774'
+        y: '170.0'
+        z: '-124.5394'
+        yaw: '-134.8516'
+        pitch: '1.0499'
+      skinlayers:
+        cape: true
+        hat: true
+        jacket: true
+        left-pants: true
+        left-sleeve: true
+        right-pants: true
+        right-sleeve: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: spawned,skintrait,type,mounttrait,location,skinlayers,owner,inventory,scoreboardtrait,hologramtrait,lookclose,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '150':
+    metadata:
+      cached-skin-uuid: faeea360-e48a-4e93-925b-9e24a9336bb3
+      cached-skin-uuid-name: manuel
+      nameplate-visible: true
+    name: '&e⚠ &4Próximamente &e⚠'
+    uuid: 057f0dfb-fe27-4de1-b67d-01095fb4cca8
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: mAr4AJvjLLLIx9lj55ISt2Tk7WnDZDwFIOMADUeR+6Gc75ahE2oC4hv6EYoxRRywpf732Wxhq8UfIhy14TsS24Pkm6PgbDlMBw3nh5c3eefQ6QBYbJFOpZqgeIFEbTVnVzuXw/+bZ1IkdZb7H1iz1Wl0l28v5qkbvLyubPmZEuN7Ub/V5cc0ln0A/TEsgJIudk5ioGCHz69xYs54joqzKqdXLZshMTU9vGxvL4GeS1XMYAKEoemHzX++wYMDVtznzma6Ni8dlmJaMAyKDXX43q7WV3DTsZjzUjPqotKXNY6QTiwqvwD3QDkmsCq8dWuz0YlYm7dadOOjDrB1Mu+5KLs9OjtiyxD+D3EiO++oZnRKKzLmDzrfKt4YsOlRWqcUF7nCTECtu0u8vHZITk9RoqRxGQkffZNdiAf1/m/87BuDWBX5xPQpmv5vaFL1KmFN71V9Q4NlUDh6f7IeSScymNWnYqSERl12B4gX7ZqghXwmBY8zIr5XfWsSSCtEVZU3TYfrls3wQAX8Z7JQx8Zkpkp2ke7pkffA575H1c7vTPKDKYy/4hCcEFcJWaYtZpaFLebLSBfuZ4kJETdRQ+jyWefBForZDUek7MaqvPiLn6UUxBnAKa90UAMDAR5Lmd08/wvLvAXVoD5PpkhvEqwzegygYjZ3k884JekuyUo6kmo=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5MjMxNjk0NzMxNiwKICAicHJvZmlsZUlkIiA6ICJmYWVlYTM2MGU0OGE0ZTkzOTI1YjllMjRhOTMzNmJiMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYW51ZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2MwNGMwYTFjMGM4OTZjZmMwMmM0NDdiNTk4OTY3NjhiMjZmYjZmNWI1ZjM4MGMzZTJmNzE1ZGVkOGVkMDYyYyIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&bPlayers; &f%server_online_survival% / 20'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+          '1':
+            text: '&a&lSurvival'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      type: PLAYER
+      spawned: true
+      owner:
+        uuid: 3c5210d1-2dbd-3639-a498-6e1b206ff90e
+      location:
+        bodyYaw: -180.15192
+        world: lobby
+        x: '-151.5247'
+        y: '170.0'
+        z: '-123.684'
+        yaw: '179.8481'
+        pitch: '2.25'
+      skinlayers:
+        cape: true
+        hat: true
+        jacket: true
+        left-pants: true
+        left-sleeve: true
+        right-pants: true
+        right-sleeve: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      gravity:
+        enabled: false
+    traitnames: type,mounttrait,location,skinlayers,scoreboardtrait,hologramtrait,gravity,lookclose,spawned,skintrait,owner,inventory,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

@@ -1,0 +1,27 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+# 
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+items:
+  item_2:
+    id: CLOCK
+    slot: 4
+    name: '&a&lGames'
+    itemflags: INVENTORY-MODIFY, DYNAMIC, DEATH-KEEP, DEATH-DROPS, SELF-DROPS, AUTO-REMOVE
+    triggers: JOIN
+    disabled-worlds: lobby_the_end, lobby_nether
+  item_1:
+    id: KNOWLEDGE_BOOK
+    slot: 8
+    name:
+      '1': '&b&lMenú'
+    itemflags: UNBREAKABLE, HIDE-FLAGS, INVENTORY-MODIFY, DYNAMIC, DEATH-KEEP, DEATH-DROPS,
+      SELF-DROPS, AUTO-REMOVE
+    triggers: JOIN
+    enabled-regions: __global__

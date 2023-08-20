@@ -1,0 +1,6 @@
+global:
+  '1':
+    type: COMMAND
+npc:
+  397e6861-761e-4d6c-ac68-4fc8f9a54f18:
+    type: BUY

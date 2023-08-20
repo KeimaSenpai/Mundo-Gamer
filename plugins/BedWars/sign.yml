@@ -1,0 +1,10 @@
+sign:
+- name: Arena2
+  location:
+    ==: org.bukkit.Location
+    world: bedwars_lobby
+    x: -97.0
+    y: 169.0
+    z: -197.0
+    pitch: 0.0
+    yaw: 0.0

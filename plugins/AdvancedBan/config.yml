@@ -1,0 +1,135 @@
+# AdvancedBan v2 - Coded by Leoko
+# For each setting, there is a small description.
+# Please read each description carefully before changing anything.
+# For more information visit: https://www.spigotmc.org/resources/advancedban.8695/
+# Do you want your own Plugin or Website? Check out our Dev-Page: http://dev.skamps.eu
+
+# If set to false all bans will be saved locally in a HSQLDB-Database
+UseMySQL: false
+
+MySQL:
+  IP: localhost
+  DB-Name: advancedban
+  Username: admin
+  Password: awd
+  Port: 3306
+  Properties: 'verifyServerCertificate=false&useSSL=false&useUnicode=true&characterEncoding=utf8'
+
+# Establézcalo en falso si desea tener solo mensajes cortos en la consola
+# En el arranque y en el apagado.
+DetailedEnableMessage: true
+DetailedDisableMessage: true
+
+# Ya sea para deshabilitar las conexiones al servidor cuando hay un error
+# con la base de datos. (por ejemplo: si su servidor MySQL se cae)
+LockdownOnError: true
+
+# Este será el motivo predeterminado que se mostrará si no se proporciona ninguno
+DefaultReason: "none"
+
+# Cambie esto si su servidor tiene una hora diferente a la de sus usuarios.
+# por ejemplo: Hora del servidor: 16:43 | Tu tiempo: 13:43 | TimeDiff debe establecerse en -3
+# Puede consultar la hora del servidor con /systemPrefs
+TimeDiff: 0
+
+# Estos comandos se desactivarán para los jugadores silenciados.
+# Un jugador no podría pasar por alto como por ejemplo,"/minecraft:me"
+MuteCommands:
+- 'me'
+- 'say'
+- 'action'
+- 'eaction'
+- 'describe'
+- 'edescribe'
+- 'eme'
+- 'w'
+- 'm'
+- 'pm'
+- 'whisper'
+- 'ewhisper'
+- 'emsg'
+- 'msg'
+- 'etell'
+- 'tell'
+- 'er'
+- 'r'
+- 'reply'
+- 'ereply'
+- 'ac'
+- 'eac'
+- 'amsg'
+- 'eamsg'
+- 'ehelpop'
+- 'p msg'
+
+# Estos jugadores no podrán ser sancionados de ninguna manera.
+# esto también funciona si el reproductor está desconectado
+# Use Vault para hacer que los permisos exentos también funcionen para jugadores sin conexión
+ExemptPlayers:
+- 'KeimaSenpai'
+
+# El formato de fecha que se utilizará para la variable %DATE%
+DateFormat: "dd.MM.yyyy-HH:mm"
+
+# Esto es útil para servidores bungeecord o servidores con sistemas de permisos que no admiten *-Perms
+# Entonces, si habilita esto, puede usar ab.all en lugar de ab.* o ab.ban.all en lugar de ab.ban.*
+# ¡Esto no funciona con permisos negativos! p.ej. -ab.all no bloquearía todos los comandos para ese usuario.
+EnableAllPermissionNodes: false
+
+# Si usa REST-API externas, tendrán que responder en JSON
+# The given APIs will only be used for NAME -> UUID
+# For UUID -> NAME will either use the official MojangAPI or the InternFetcher
+# To check if you can use the intern fetcher do /systemPerfs and compare your uuid
+#   to the one you can see online on http://NamesMC.com
+#   if they are similar we recommend using the InternFetcher
+UUID-Fetcher:
+  # If dynamic it set to true it will override the 'enabled' and 'intern' settings
+  # and automatically detect the best possible uuid fetcher settings for your server.
+  # Our recommendation: don't set dynamic to false if you don't have any problems.
+  Dynamic: true
+  Enabled: true
+  Intern: false
+  REST-API:
+    URL: "https://api.mojang.com/users/profiles/minecraft/%NAME%?at=%TIMESTAMP%"
+    Key: "id"
+  BackUp-API:
+    URL: "https://us.mc-api.net/v3/uuid/%NAME%"
+    Key: "uuid"
+
+# Estos son los comandos que se ejecutarán en las advertencias
+# Si omite un número, se ejecutará el comando anterior
+# También puede usar comandos no avanzados como ban 'broadcast' o 'clear %PLAYER%
+# Variables: %PLAYER%, %REASON%, %COUNT%
+WarnActions:
+  3: "kick %PLAYER% &c&o¡Ha recibido su tercera advertencia!"
+  4: "tempban %PLAYER% 30m &c&o¡Has recibido tu cuarta advertencia!"
+  5: "tempban %PLAYER% 5h &c&o¡Ha recibido su quinta advertencia!"
+  6: "tempban %PLAYER% 7d &c&o¡Has recibido tu sexta advertencia!"
+  7: "tempban %PLAYER% 1mo &c&o¡Has recibido tu %COUNT%th advertencia!"
+  10: "ban %PLAYER% &c&o¡Has recibido tu décima advertencia!"
+
+# Aquí puede crear nodos de permiso para la duración máxima del castigo.
+# El permiso "ab.tempban.dur.1" permitiría al jugador prohibir max. durante 600 s = 10 min
+# El permiso "ab.tempwarn.dur.2" permitiría al jugador advertir a max. por 3600seg = 1h
+# Solo puede crear hasta 10 permisos. Los permisos se pueden anular con "ab.COMMAND.dur.max"
+TempPerms:
+  1: 600
+  2: 3600
+  3: 43200
+
+# Con esto activo mostrara mas informacion en la consola, como errores, si
+# el plugin funciona correctamente no se recomienda activarlo ya que es
+# diseñado para encontrar errores.
+Debug: false
+
+# Esta es la cantidad de días que debemos mantener los registros de los complementos en la carpeta plugins/AdvancedBan/logs.
+# Por defecto se establece en 10 días.
+Log Purge Days: 10
+
+# Elimina el prefijo del complemento en cada mensaje.
+Disable Prefix: false
+
+# Registrar comandos de una manera más amigable
+# Desactivado de forma predeterminada, por lo que AdvancedBan puede anular / prohibir otros complementos
+# Esta es una opción específica de Bukkit. No tiene significado en BungeeCord
+Friendly Register Commands: false

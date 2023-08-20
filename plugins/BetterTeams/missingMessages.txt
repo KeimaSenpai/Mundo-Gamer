@@ -1,0 +1,43 @@
+# Please translate these messages and then submit them to the Booksaw Development (https://discord.gg/JF9DNs3) in the #messages-submissions channel for a special rank
+# Your translations will be included in the next update
+list.noPage: &6That page is not found
+list.header: &7--- &bTeam list page %s &7---
+list.body: &6%s: &b%s
+list.footer: &7--- &6do &b/team list [page] &6to view more &7---
+setwarp.exist: &4That warp already exists
+setwarp.max: &4Your team already has the maximum number of warps set
+setwarp.success: &6That warp has been created
+setwarp.char: &4That warp name includes banned characters
+warp.nowarp: &4That warp does not exist
+warp.invalidPassword: &4Invalid password for that warp
+warp.success: &6You have been teleported
+warp.world: &4The location of that warp could not be found
+warps.syntax: &6Warps: &b%s
+warps.none: &4Your team has no warps set
+delwarp.success: &4That warp has been deleted
+teleport.fail: &4The teleportation failed
+teleport.wait: &6Wait &b%s &6seconds
+chest.claim.noChest: &4You are not standing on a chest
+chest.claim.limit: &4Your team has claimed the maximum number of chests
+chest.claim.claimed: &4That chest has already been claimed
+chest.claim.success: &6You have claimed that chest
+chest.remove.noChest: &4You are not standing on a chest
+chest.remove.notClaimed: &4Your team has not claimed that chest
+chest.remove.success: &4Your team no longer has a claim to that chest
+chest.all.success: &6Unclaimed all chests
+chest.claimed: &4That chest is claimed by &a%s
+echest.echest: Enderchest
+pvp.enabled: &6Pvp has been enabled for your team
+pvp.disabled: &6Pvp has been disabled for your team
+rankup.max: &4You are already the max rank
+rankup.score: &4You need %s score to rankup
+rankup.money: &4You need %s money in the team balance to rankup
+rankup.success: &6Your team has leveled up
+tag.banned: &4That tag is banned
+tag.success: &6Your tag has successfully changed
+tag.maxLength: &4That tag is too long
+tag.noPerm: &4You do not have permission to change the team tag
+baltop.leaderboard: &6Leaderboard
+baltop.syntax: &b%s: &6%s &7(%s)
+baltop.divide: &f...
+command.holo: holo

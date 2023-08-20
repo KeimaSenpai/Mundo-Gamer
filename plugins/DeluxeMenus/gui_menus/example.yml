@@ -1,0 +1,72 @@
+open_command: example
+
+size: 54
+
+menu_title: "&f七七七七七七七七ㇺ"
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.warp
+      deny_commands:
+        - '[message] &cPlease contact your local admin to be perminated with the warp permission.'
+
+items:
+  'gamemodeswitcher':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 12
+    display_name: "&aSwitch to Survival"
+    lore:
+      - "&7Click to switch your gamemode"
+    left_click_commands:
+      - '[player] gamemode survival'
+      - '[close]'
+  'up1':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 23
+    display_name: "&bTeleport Up 10 blocks"
+    lore:
+      - "&7By clicking this you teleport 10 blocks in the air"
+    left_click_commands:
+      - '[player] tp ~ ~10 ~'
+      - '[close]'
+  'up2':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 24
+    display_name: "&bTeleport Up 10 blocks"
+    lore:
+      - "&7By clicking this you teleport 10 blocks in the air"
+    left_click_commands:
+      - '[player] tp ~ ~10 ~'
+      - '[close]'
+  'up3':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 32
+    display_name: "&bTeleport Up 10 blocks"
+    lore:
+      - "&7By clicking this you teleport 10 blocks in the air"
+    left_click_commands:
+      - '[player] tp ~ ~10 ~'
+      - '[close]'
+  'up4':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 33
+    display_name: "&bTeleport Up 10 blocks"
+    lore:
+      - "&7By clicking this you teleport 10 blocks in the air"
+    left_click_commands:
+      - '[player] tp ~ ~10 ~'
+      - '[close]'
+  'close':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 52
+    display_name: "&c CLOSE MENU"
+    left_click_commands:
+      - '[close]'

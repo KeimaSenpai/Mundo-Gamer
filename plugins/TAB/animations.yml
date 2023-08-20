@@ -1,0 +1,52 @@
+Bienvenido:
+  change-interval: 400
+  texts:
+  - '&7&lB_'
+  - '&7&lB_'
+  - '&7&lBi_'
+  - '&7&lBie_'
+  - '&7&lBien_'
+  - '&7&lBienv_'
+  - '&7&lBienve_'
+  - '&7&lBienven_'
+  - '&7&lBienveni_'
+  - '&7&lBienvenid_'
+  - '&b&lBienvenido'
+  - '&3&lBienvenido'
+  - '&b&lBienvenido'
+  - '&3&lBienvenido'
+  - '&b&lBienvenido'
+  - '&3&lBienvenido'
+  - '&b&lBienvenido'
+  - '&7&lBienvenid_'
+  - '&7&lBienveni_'
+  - '&7&lBienven_'
+  - '&7&lBienve_'
+  - '&7&lBienv_'
+  - '&7&lBien_'
+  - '&7&lBie_'
+  - '&7&lBi_'
+  - '&7&lB_'
+time:
+  change-interval: 900
+  texts:
+  - '&7Time &b%time%'
+  - '&7> Time &b%time% &7<'
+  - '&7>> Time &b%time% &7<<'
+  - '&7>>> Time &b%time% &7<<<'
+  - '&7Date &b%date%'
+  - '&7> Date &b%date% &7<'
+  - '&7>> Date &b%date% &7<<'
+  - '&7>>> Date &b%date% &7<<<'
+ping-tps:
+  change-interval: 5000
+  texts:
+  - '&aPing: &2&n%ping%&r &ams'
+  - '&bServer TPS: &8%tps%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

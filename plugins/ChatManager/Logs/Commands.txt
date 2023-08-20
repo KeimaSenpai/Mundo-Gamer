@@ -1,0 +1,252 @@
+[Thu Aug 17 16:33:25 CDT 2023] KeimaSenpai: /gamerule doMobSpawning false
+[Thu Aug 17 16:33:34 CDT 2023] KeimaSenpai: /gamemode creative
+[Thu Aug 17 16:37:21 CDT 2023] KeimaSenpai: /regions
+[Thu Aug 17 16:37:26 CDT 2023] KeimaSenpai: /region list
+[Thu Aug 17 16:58:38 CDT 2023] KeimaSenpai: /gamerule doWeatherCycle false
+[Thu Aug 17 16:58:50 CDT 2023] KeimaSenpai: /weather clear
+[Thu Aug 17 16:59:29 CDT 2023] KeimaSenpai: /pl
+[Thu Aug 17 16:59:36 CDT 2023] KeimaSenpai: /lp editor
+[Thu Aug 17 16:59:50 CDT 2023] KeimaSenpai: /cm reload
+[Thu Aug 17 16:59:53 CDT 2023] KeimaSenpai: /cm reload
+[Thu Aug 17 17:00:25 CDT 2023] KeimaSenpai: /luckperms
+[Thu Aug 17 17:00:31 CDT 2023] KeimaSenpai: /luckperms
+[Thu Aug 17 17:06:51 CDT 2023] KeimaSenpai: /currency MG
+[Thu Aug 17 17:08:23 CDT 2023] KeimaSenpai: /currency
+[Thu Aug 17 17:09:03 CDT 2023] KeimaSenpai: /currency create MG MG
+[Thu Aug 17 17:09:38 CDT 2023] KeimaSenpai: /npc
+[Thu Aug 17 17:09:45 CDT 2023] KeimaSenpai: /npc help
+[Thu Aug 17 17:09:51 CDT 2023] KeimaSenpai: /npc2
+[Thu Aug 17 17:09:59 CDT 2023] KeimaSenpai: /npcgui
+[Thu Aug 17 17:10:14 CDT 2023] KeimaSenpai: /lp editor
+[Thu Aug 17 17:10:34 CDT 2023] KeimaSenpai: /lp editor
+[Thu Aug 17 17:14:14 CDT 2023] KeimaSenpai: /lp applyedits KZJe08gv3t
+[Thu Aug 17 17:16:31 CDT 2023] KeimaSenpai: /lp applyedits 1PM4EQJSIZ
+[Thu Aug 17 17:16:39 CDT 2023] KeimaSenpai: /lp applyedits 1PM4EQJSIZ --force
+[Thu Aug 17 17:18:13 CDT 2023] KeimaSenpai: /lp applyedits qHXQ6RA13l --force
+[Thu Aug 17 17:19:50 CDT 2023] KeimaSenpai: /lp applyedits 4bQvb3fRhP --force
+[Thu Aug 17 17:20:09 CDT 2023] KeimaSenpai: /lp user KeimaSenpai parent set owner
+[Thu Aug 17 17:20:45 CDT 2023] KeimaSenpai: /lp user KeimaSenpai parent set default
+[Thu Aug 17 17:23:42 CDT 2023] KeimaSenpai: /lp applyedits wd2pBBPsVf --force
+[Thu Aug 17 17:23:52 CDT 2023] KeimaSenpai: /skins help
+[Thu Aug 17 17:24:01 CDT 2023] KeimaSenpai: /skins
+[Thu Aug 17 17:24:13 CDT 2023] KeimaSenpai: /skin set KeimaSenpai
+[Thu Aug 17 17:25:00 CDT 2023] KeimaSenpai: /gamemode creative
+[Thu Aug 17 17:25:14 CDT 2023] KeimaSenpai: /time set day
+[Thu Aug 17 17:29:49 CDT 2023] KeimaSenpai: /npc KeimaSenpai
+[Thu Aug 17 17:33:23 CDT 2023] KeimaSenpai: /npc create Claud
+[Thu Aug 17 17:39:48 CDT 2023] KeimaSenpai: /pl
+[Thu Aug 17 17:40:10 CDT 2023] KeimaSenpai: /npc
+[Thu Aug 17 19:59:11 CDT 2023] KeimaSenpai: /gamemode creative
+[Thu Aug 17 19:59:38 CDT 2023] KeimaSenpai: /npc create Claud
+[Thu Aug 17 20:00:41 CDT 2023] KeimaSenpai: /npc respawn
+[Thu Aug 17 20:01:14 CDT 2023] KeimaSenpai: /npc despawn 149
+[Thu Aug 17 20:02:25 CDT 2023] KeimaSenpai: /npc create Manuel
+[Thu Aug 17 20:03:03 CDT 2023] KeimaSenpai: /npc create Lucas
+[Thu Aug 17 20:03:37 CDT 2023] KeimaSenpai: /npc create Angel
+[Thu Aug 17 20:04:18 CDT 2023] KeimaSenpai: /npc respawn 149
+[Thu Aug 17 20:05:02 CDT 2023] KeimaSenpai: /npc create Juan
+[Thu Aug 17 20:05:53 CDT 2023] KeimaSenpai: /npc create Melisa
+[Thu Aug 17 20:06:13 CDT 2023] KeimaSenpai: /time set day
+[Thu Aug 17 20:06:31 CDT 2023] KeimaSenpai: /npc list
+[Thu Aug 17 20:06:39 CDT 2023] KeimaSenpai: /npc remove 1258d593-6979-4ad2-ba85-e407031146a3
+[Thu Aug 17 20:06:44 CDT 2023] KeimaSenpai: /npc list
+[Thu Aug 17 20:07:17 CDT 2023] KeimaSenpai: /npc select
+[Thu Aug 17 20:07:34 CDT 2023] KeimaSenpai: /npc hologram add Player
+[Thu Aug 17 20:10:37 CDT 2023] KeimaSenpai: /npc hologram clear
+[Thu Aug 17 20:11:41 CDT 2023] KeimaSenpai: /npc hologram add &a&l%server_online_looby%
+[Thu Aug 17 20:12:29 CDT 2023] KeimaSenpai: /npc hologram add Player: &a&l%server_online_looby% / 20
+[Thu Aug 17 20:13:12 CDT 2023] KeimaSenpai: /npc hologram remove
+[Thu Aug 17 20:13:21 CDT 2023] KeimaSenpai: /npc hologram 2
+[Thu Aug 17 20:13:28 CDT 2023] KeimaSenpai: /npc hologram remove 2
+[Thu Aug 17 20:13:38 CDT 2023] KeimaSenpai: /npc hologram remove 1
+[Thu Aug 17 20:13:43 CDT 2023] KeimaSenpai: /npc hologram remove 0
+[Thu Aug 17 20:14:15 CDT 2023] KeimaSenpai: /npc rename %server_online_lobby%
+[Thu Aug 17 20:16:38 CDT 2023] KeimaSenpai: /npc rename &bPlayers; &f%server_online_lobby% / 20
+[Thu Aug 17 20:17:24 CDT 2023] KeimaSenpai: /npc hologram add &a&lSurvival
+[Thu Aug 17 20:18:24 CDT 2023] KeimaSenpai: /npc select
+[Thu Aug 17 20:18:31 CDT 2023] KeimaSenpai: /npc rename &bPlayers; &f%server_online_skywars% / 20
+[Thu Aug 17 20:19:18 CDT 2023] KeimaSenpai: /npc hologram add &a&lSkywars
+[Thu Aug 17 20:19:32 CDT 2023] KeimaSenpai: /npc select
+[Thu Aug 17 20:19:50 CDT 2023] KeimaSenpai: /npc rename &bPlayers; &f%server_online_bedwars% / 20
+[Thu Aug 17 20:20:11 CDT 2023] KeimaSenpai: /npc hologram add &a&lBedwars
+[Thu Aug 17 20:20:34 CDT 2023] KeimaSenpai: /npc select
+[Thu Aug 17 20:20:55 CDT 2023] KeimaSenpai: /npc hologram add &c&lProximamente
+[Thu Aug 17 20:21:43 CDT 2023] KeimaSenpai: /npc hologram remove 1
+[Thu Aug 17 20:22:50 CDT 2023] KeimaSenpai: /npc rename &b&n---------
+[Thu Aug 17 20:23:12 CDT 2023] KeimaSenpai: /npc rename &b&m---------
+[Thu Aug 17 20:23:34 CDT 2023] KeimaSenpai: /npc hologram remove 0
+[Thu Aug 17 20:24:15 CDT 2023] KeimaSenpai: /npc hologram add &bPlayers; &f%server_online_survival% / 20
+[Thu Aug 17 20:24:48 CDT 2023] KeimaSenpai: /npc hologram add &a&lSurvival
+[Thu Aug 17 20:26:08 CDT 2023] KeimaSenpai: /npc rename &b&m--&cProximamente&b&m--
+[Thu Aug 17 20:27:03 CDT 2023] KeimaSenpai: /npc rename &e?&cProximamente&e?
+[Thu Aug 17 20:27:35 CDT 2023] KeimaSenpai: /npc select
+[Thu Aug 17 20:27:53 CDT 2023] KeimaSenpai: /npc rename &b&m---------
+[Thu Aug 17 20:28:59 CDT 2023] KeimaSenpai: /npc hologram add &bPlayers; &f%server_online_murder% / 20
+[Thu Aug 17 20:29:31 CDT 2023] KeimaSenpai: /npc hologram add &a&lMurder Mystery
+[Thu Aug 17 20:29:48 CDT 2023] KeimaSenpai: /npc select
+[Thu Aug 17 20:29:56 CDT 2023] KeimaSenpai: /npc rename &b&m---------
+[Thu Aug 17 20:30:37 CDT 2023] KeimaSenpai: /npc hologram add &bPlayers; &f%server_online_bedwars% / 20
+[Thu Aug 17 20:31:07 CDT 2023] KeimaSenpai: /npc hologram remove 0
+[Thu Aug 17 20:31:22 CDT 2023] KeimaSenpai: /npc hologram add &a&lBedwars
+[Thu Aug 17 20:31:41 CDT 2023] KeimaSenpai: /npc select
+[Thu Aug 17 20:31:47 CDT 2023] KeimaSenpai: /npc rename &b&m---------
+[Thu Aug 17 20:32:34 CDT 2023] KeimaSenpai: /npc hologram add &bPlayers; &f%server_online_pvp% / 20
+[Thu Aug 17 20:32:48 CDT 2023] KeimaSenpai: /npc hologram add &c&lPVP
+[Thu Aug 17 20:33:19 CDT 2023] KeimaSenpai: /npc select
+[Thu Aug 17 20:33:25 CDT 2023] KeimaSenpai: /npc rename &b&m---------
+[Thu Aug 17 20:34:10 CDT 2023] KeimaSenpai: /npc hologram add &bPlayers; &f%server_online_skywars% / 20
+[Thu Aug 17 20:34:27 CDT 2023] KeimaSenpai: /npc hologram remove 0
+[Thu Aug 17 20:34:45 CDT 2023] KeimaSenpai: /npc hologram add &b&lSkywars
+[Thu Aug 17 20:35:23 CDT 2023] KeimaSenpai: /npc select
+[Thu Aug 17 20:35:35 CDT 2023] KeimaSenpai: /npc hologram add &b&lSkywars
+[Thu Aug 17 20:36:04 CDT 2023] KeimaSenpai: /npc hologram remove 2
+[Thu Aug 17 20:36:21 CDT 2023] KeimaSenpai: /npc rename &e?&cProximamente&e?
+[Thu Aug 17 20:36:43 CDT 2023] KeimaSenpai: /time set day
+[Thu Aug 17 20:36:57 CDT 2023] KeimaSenpai: /worldguardgui
+[Thu Aug 17 20:42:47 CDT 2023] KeimaSenpai: /worldguardgui
+[Thu Aug 17 20:54:01 CDT 2023] KeimaSenpai: /time set day
+[Thu Aug 17 20:54:34 CDT 2023] KeimaSenpai: /itemjoin menu
+[Thu Aug 17 20:56:54 CDT 2023] KeimaSenpai: /itemjoin menu
+[Thu Aug 17 20:58:50 CDT 2023] KeimaSenpai: /itemjoin menu
+[Thu Aug 17 20:59:59 CDT 2023] KeimaSenpai: /itemjoin menu
+[Thu Aug 17 21:05:41 CDT 2023] KeimaSenpai: /itemjoin menu
+[Thu Aug 17 21:09:51 CDT 2023] KeimaSenpai: /itemjoin menu
+[Thu Aug 17 21:10:43 CDT 2023] KeimaSenpai: /itemjoin menu
+[Thu Aug 17 21:13:13 CDT 2023] KeimaSenpai: /gamemode creative
+[Thu Aug 17 21:13:39 CDT 2023] KeimaSenpai: /bedwars help
+[Thu Aug 17 22:06:27 CDT 2023] KeimaSenpai: /mvhelp
+[Thu Aug 17 22:07:25 CDT 2023] KeimaSenpai: /mvimport bedwars_lobby
+[Thu Aug 17 22:07:44 CDT 2023] KeimaSenpai: /mvimport bedwars_lobby normal
+[Thu Aug 17 22:10:30 CDT 2023] KeimaSenpai: /mvtp KeimaSenpai bedwars_lobby
+[Thu Aug 17 22:10:58 CDT 2023] KeimaSenpai: /mvtp KeimaSenpai lobby
+[Thu Aug 17 22:11:14 CDT 2023] KeimaSenpai: /npc select
+[Thu Aug 17 22:12:32 CDT 2023] KeimaSenpai: /npc command mvtp %player_name% bedwars_lobby
+[Thu Aug 17 22:13:04 CDT 2023] KeimaSenpai: /npc command add mvtp %player_name% bedwars_lobby
+[Thu Aug 17 22:13:31 CDT 2023] KeimaSenpai: /gamerule doDaylightCycle false
+[Thu Aug 17 22:13:40 CDT 2023] KeimaSenpai: /gamemode creative
+[Thu Aug 17 22:13:46 CDT 2023] KeimaSenpai: /time set day
+[Thu Aug 17 22:14:18 CDT 2023] KeimaSenpai: /gamerule doMobSpawning false
+[Thu Aug 17 22:14:40 CDT 2023] KeimaSenpai: /gamerule doWeatherCycle false
+[Thu Aug 17 22:17:28 CDT 2023] KeimaSenpai: /bw admin bedwars1 lobby
+[Sun Aug 20 13:34:51 CDT 2023] KeimaSenpai: /gamemode creative
+[Sun Aug 20 13:35:15 CDT 2023] KeimaSenpai: /gamerule doMobSpawning false
+[Sun Aug 20 13:35:31 CDT 2023] KeimaSenpai: /mv tp KeimaSenpai lobby
+[Sun Aug 20 13:35:53 CDT 2023] KeimaSenpai: /gamemode creative
+[Sun Aug 20 13:36:30 CDT 2023] KeimaSenpai: /tps
+[Sun Aug 20 13:36:37 CDT 2023] KeimaSenpai: /tps
+[Sun Aug 20 13:36:39 CDT 2023] KeimaSenpai: /tps
+[Sun Aug 20 13:36:40 CDT 2023] KeimaSenpai: /tps
+[Sun Aug 20 13:36:41 CDT 2023] KeimaSenpai: /tps
+[Sun Aug 20 13:36:42 CDT 2023] KeimaSenpai: /tps
+[Sun Aug 20 13:36:43 CDT 2023] KeimaSenpai: /tps
+[Sun Aug 20 13:36:46 CDT 2023] KeimaSenpai: /tps
+[Sun Aug 20 13:38:02 CDT 2023] KeimaSenpai: /tab reload
+[Sun Aug 20 13:38:30 CDT 2023] KeimaSenpai: /gamemode creative
+[Sun Aug 20 13:39:08 CDT 2023] KeimaSenpai: /kill help
+[Sun Aug 20 13:40:15 CDT 2023] KeimaSenpai: /kill @s[ type= minecraft:zombie ]
+[Sun Aug 20 13:40:37 CDT 2023] KeimaSenpai: /kill @s[ type= minecraft:creeper]
+[Sun Aug 20 13:41:55 CDT 2023] KeimaSenpai: /kill @e[ type= !#minecraft:skeletons ]
+[Sun Aug 20 13:42:15 CDT 2023] KeimaSenpai: /mvtp KeimaSenpai lobby
+[Sun Aug 20 13:42:22 CDT 2023] KeimaSenpai: /gamemode creative
+[Sun Aug 20 13:43:30 CDT 2023] KeimaSenpai: /authme help
+[Sun Aug 20 13:44:11 CDT 2023] KeimaSenpai: /authme setspawn
+[Sun Aug 20 13:45:39 CDT 2023] KeimaSenpai: /tps
+[Sun Aug 20 13:47:46 CDT 2023] KeimaSenpai: /mvtp KeimaSenpai lobby
+[Sun Aug 20 13:47:59 CDT 2023] KeimaSenpai: /npc select
+[Sun Aug 20 13:50:00 CDT 2023] KeimaSenpai: /npc rename &e? &4Próximamente &e?
+[Sun Aug 20 13:51:13 CDT 2023] KeimaSenpai: /npc select
+[Sun Aug 20 13:51:17 CDT 2023] KeimaSenpai: /npc rename &e? &4Próximamente &e?
+[Sun Aug 20 13:51:37 CDT 2023] KeimaSenpai: /npc list
+[Sun Aug 20 13:51:42 CDT 2023] KeimaSenpai: /npc tp --uuid 057f0dfb-fe27-4de1-b67d-01095fb4cca8
+[Sun Aug 20 13:51:57 CDT 2023] KeimaSenpai: /npc tp --uuid af1fdd36-a2e0-4f2c-9a70-8b8f38aefbe3
+[Sun Aug 20 13:55:49 CDT 2023] KeimaSenpai: /tps
+[Sun Aug 20 13:56:14 CDT 2023] KeimaSenpai: /mv tp KeimaSenpai lobby
+[Sun Aug 20 14:50:14 CDT 2023] KeimaSenpai: /tps
+[Sun Aug 20 14:50:53 CDT 2023] KeimaSenpai: /gamemode creative
+[Sun Aug 20 14:51:14 CDT 2023] KeimaSenpai: /gamemode creative
+[Sun Aug 20 14:52:39 CDT 2023] KeimaSenpai: /bw mainlobby set
+[Sun Aug 20 14:52:58 CDT 2023] KeimaSenpai: /mv help
+[Sun Aug 20 14:53:24 CDT 2023] KeimaSenpai: /mv import bedwars-1 normal
+[Sun Aug 20 14:53:34 CDT 2023] KeimaSenpai: /mv list
+[Sun Aug 20 14:53:59 CDT 2023] KeimaSenpai: /mv tp KeimaSenpai bedwars-1
+[Sun Aug 20 14:54:08 CDT 2023] KeimaSenpai: /gamemode creative
+[Sun Aug 20 14:55:14 CDT 2023] KeimaSenpai: /bw admin Arena1 add
+[Sun Aug 20 14:55:23 CDT 2023] KeimaSenpai: /time set day
+[Sun Aug 20 14:56:56 CDT 2023] KeimaSenpai: /bw admin Arena1 pos1
+[Sun Aug 20 14:57:22 CDT 2023] KeimaSenpai: /bw admin Arena1 pos2
+[Sun Aug 20 14:59:01 CDT 2023] KeimaSenpai: /bw admin Arena1 lobby
+[Sun Aug 20 14:59:26 CDT 2023] KeimaSenpai: //desel
+[Sun Aug 20 15:00:04 CDT 2023] KeimaSenpai: /bw admin Arena1 spec
+[Sun Aug 20 15:00:48 CDT 2023] KeimaSenpai: /gamerule doDaylightCycle false
+[Sun Aug 20 15:01:07 CDT 2023] KeimaSenpai: /gamerule doMobSpawning false
+[Sun Aug 20 15:03:58 CDT 2023] KeimaSenpai: /bw admin Arena1 team add Red RED 1
+[Sun Aug 20 15:04:53 CDT 2023] KeimaSenpai: /bw admin Arena1 team add Gris GRAY 1
+[Sun Aug 20 15:05:18 CDT 2023] KeimaSenpai: /bw admin Arena1 team add Rosa PINK 1
+[Sun Aug 20 15:05:40 CDT 2023] KeimaSenpai: /bw admin Arena1 team add Blanco WHITE 1
+[Sun Aug 20 15:06:07 CDT 2023] KeimaSenpai: /bw admin Arena1 team add AzulC CYAN 1
+[Sun Aug 20 15:06:29 CDT 2023] KeimaSenpai: /bw admin Arena1 team add Amarillo YELLOW 1
+[Sun Aug 20 15:06:48 CDT 2023] KeimaSenpai: /bw admin Arena1 team add Verde GREEN 1
+[Sun Aug 20 15:07:07 CDT 2023] KeimaSenpai: /bw admin Arena1 team add Azul BLUE 1
+[Sun Aug 20 15:07:31 CDT 2023] KeimaSenpai: /bw admin Arena1 team remove Red
+[Sun Aug 20 15:07:42 CDT 2023] KeimaSenpai: /bw admin Arena1 team add Rojo RED
+[Sun Aug 20 15:07:56 CDT 2023] KeimaSenpai: /bw admin Arena1 team add Rojo RED
+[Sun Aug 20 15:08:07 CDT 2023] KeimaSenpai: /bw admin Arena1 team add Rojo RED
+[Sun Aug 20 15:08:14 CDT 2023] KeimaSenpai: /bw help
+[Sun Aug 20 15:08:21 CDT 2023] KeimaSenpai: /bw reload
+[Sun Aug 20 15:13:18 CDT 2023] KeimaSenpai: /gamemode
+[Sun Aug 20 15:13:23 CDT 2023] KeimaSenpai: /gamemode creative
+[Sun Aug 20 15:15:22 CDT 2023] KeimaSenpai: /mvsetspawn
+[Sun Aug 20 15:15:30 CDT 2023] KeimaSenpai: /mvtp KeimaSenpai lobby
+[Sun Aug 20 15:15:46 CDT 2023] KeimaSenpai: /tps
+[Sun Aug 20 15:16:19 CDT 2023] KeimaSenpai: /mv import bedwars-2 normal
+[Sun Aug 20 15:16:30 CDT 2023] KeimaSenpai: /mv list
+[Sun Aug 20 15:16:49 CDT 2023] KeimaSenpai: /mv tp KeimaSenpai bedwars-2
+[Sun Aug 20 15:17:01 CDT 2023] KeimaSenpai: /gamerule doDaylightCycle false
+[Sun Aug 20 15:17:12 CDT 2023] KeimaSenpai: /gamerule doMobSpawning false
+[Sun Aug 20 15:17:22 CDT 2023] KeimaSenpai: /gamemode creative
+[Sun Aug 20 15:17:45 CDT 2023] KeimaSenpai: /mvtp KeimaSenpai lobby
+[Sun Aug 20 15:18:58 CDT 2023] KeimaSenpai: /bw mainlobby set
+[Sun Aug 20 15:19:35 CDT 2023] KeimaSenpai: /mv tp KeimaSenpai bedwars-2
+[Sun Aug 20 15:20:38 CDT 2023] KeimaSenpai: /bw admin Arena2 add
+[Sun Aug 20 15:20:43 CDT 2023] KeimaSenpai: /gamemode creative
+[Sun Aug 20 15:21:40 CDT 2023] KeimaSenpai: /bw admin Arena2 pos1
+[Sun Aug 20 15:22:48 CDT 2023] KeimaSenpai: //pos2
+[Sun Aug 20 15:23:17 CDT 2023] KeimaSenpai: /bw admin Arena2 pos2
+[Sun Aug 20 15:23:27 CDT 2023] KeimaSenpai: //desel
+[Sun Aug 20 15:23:56 CDT 2023] KeimaSenpai: /bw admin Arena2 lobby
+[Sun Aug 20 15:24:02 CDT 2023] KeimaSenpai: /bw admin Arena2 spec
+[Sun Aug 20 15:24:52 CDT 2023] KeimaSenpai: /bw admin Arena2 team add Rojo RED 1
+[Sun Aug 20 15:26:41 CDT 2023] KeimaSenpai: /bw admin Arena2 team add Azul BLUE 1
+[Sun Aug 20 15:27:00 CDT 2023] KeimaSenpai: /bw admin Arena2 team add Verde GREEN 1
+[Sun Aug 20 15:27:26 CDT 2023] KeimaSenpai: /bw admin Arena2 team add Amarillo YELLOW 1
+[Sun Aug 20 15:28:17 CDT 2023] KeimaSenpai: /bw admin Arena2 team spawn Rojo
+[Sun Aug 20 15:28:35 CDT 2023] KeimaSenpai: /bw admin Arena2 team spawn Azul
+[Sun Aug 20 15:28:56 CDT 2023] KeimaSenpai: /bw admin Arena2 team spawn Verde
+[Sun Aug 20 15:29:17 CDT 2023] KeimaSenpai: /bw admin Arena2 team spawn Amarillo
+[Sun Aug 20 15:32:38 CDT 2023] KeimaSenpai: /bw admin Arena2 spawner add bronze
+[Sun Aug 20 15:33:38 CDT 2023] KeimaSenpai: /bw admin Arena2 spawner add bronze
+[Sun Aug 20 15:34:41 CDT 2023] KeimaSenpai: /bw admin Arena2 spawner add bronze
+[Sun Aug 20 15:35:04 CDT 2023] KeimaSenpai: /bw admin Arena2 spawner add bronze
+[Sun Aug 20 15:37:17 CDT 2023] KeimaSenpai: /bw admin Arena2 store add Villager_shop
+[Sun Aug 20 15:37:41 CDT 2023] KeimaSenpai: /bw admin Arena2 store add Villager_shop
+[Sun Aug 20 15:37:59 CDT 2023] KeimaSenpai: /bw admin Arena2 store add Villager_shop
+[Sun Aug 20 15:38:16 CDT 2023] KeimaSenpai: /bw admin Arena2 store add Villager_shop
+[Sun Aug 20 15:41:53 CDT 2023] KeimaSenpai: /bw admin Arena2 spawner add gold
+[Sun Aug 20 15:42:07 CDT 2023] KeimaSenpai: /bw admin Arena2 spawner add gold
+[Sun Aug 20 15:42:20 CDT 2023] KeimaSenpai: /bw admin Arena2 spawner add gold
+[Sun Aug 20 15:42:37 CDT 2023] KeimaSenpai: /bw admin Arena2 spawner add gold
+[Sun Aug 20 15:42:52 CDT 2023] KeimaSenpai: /bw admin Arena2 spawner add iron
+[Sun Aug 20 15:43:02 CDT 2023] KeimaSenpai: /bw admin Arena2 spawner add iron
+[Sun Aug 20 15:43:12 CDT 2023] KeimaSenpai: /bw admin Arena2 spawner add iron
+[Sun Aug 20 15:43:23 CDT 2023] KeimaSenpai: /bw admin Arena2 spawner add iron
+[Sun Aug 20 15:44:03 CDT 2023] KeimaSenpai: /bw admin Arena2 save
+[Sun Aug 20 15:45:27 CDT 2023] KeimaSenpai: /bw admin Arena2 team bed Rojo
+[Sun Aug 20 15:45:51 CDT 2023] KeimaSenpai: /bw admin Arena2 team bed Azul
+[Sun Aug 20 15:46:09 CDT 2023] KeimaSenpai: /bw admin Arena2 team bed Verde
+[Sun Aug 20 15:46:23 CDT 2023] KeimaSenpai: /bw admin Arena2 team bed Azul
+[Sun Aug 20 15:46:35 CDT 2023] KeimaSenpai: /bw admin Arena2 team bed Rojo
+[Sun Aug 20 15:46:52 CDT 2023] KeimaSenpai: /bw admin Arena2 team bed Amarillo
+[Sun Aug 20 15:47:04 CDT 2023] KeimaSenpai: /bw admin Arena2 save
+[Sun Aug 20 15:48:11 CDT 2023] KeimaSenpai: /mv tp KeimaSenpai lobby
+[Sun Aug 20 15:48:34 CDT 2023] KeimaSenpai: /gamemode creative
+[Sun Aug 20 15:51:25 CDT 2023] KeimaSenpai: /mv tp KeimaSenpai lobby
