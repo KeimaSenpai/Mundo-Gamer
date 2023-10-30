@@ -1,1 +1,1 @@
-java -Xms1G -Xmx1G -jar paper-1.16.5-794.jar --nogui
+java -Xms1G -Xmx2G -jar spigot-1.16.5.jar --nogui

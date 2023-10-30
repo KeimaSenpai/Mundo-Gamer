@@ -24,18 +24,21 @@ settings:
   shutdown-message: Server closed
   minimum-api: none
 spawn-limits:
-  monsters: 50
+  monsters: 30
   animals: 8
-  water-animals: 7
-  water-ambient: 10
-  ambient: 1
+  water-animals: 15
+  water-ambient: 20
+  ambient: 15
 chunk-gc:
-  period-in-ticks: 400
+  period-in-ticks: 600
 ticks-per:
-  animal-spawns: 400
-  monster-spawns: 5
-  water-spawns: 11
-  water-ambient-spawns: 21
-  ambient-spawns: 31
-  autosave: 6000
+  animal-spawns: 600
+  monster-spawns: 2
+  water-spawns: 2
+  water-ambient-spawns: 2
+  ambient-spawns: 2
+  autosave: 8000
 aliases: now-in-commands.yml
+worlds:
+  world:
+    generator: TerraformGenerator
